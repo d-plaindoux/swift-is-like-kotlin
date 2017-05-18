@@ -8,4 +8,4 @@ func sumOf(_ numbers: Int...) -> Int {
 sumOf(42, 597, 12)
 
 // sumOf() can also be written in a shorter way:
-let sumof = { (numbers:Int...) in numbers.reduce(1,{ (r,v) in r + v }) }
+let sumOf = { (numbers:Int...) in numbers.reduce(1,{ (r,v) in r + v }) }
